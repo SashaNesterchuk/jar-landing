@@ -48,11 +48,25 @@
       </div>
       <div class="md:w-1/2">
         <img
-          src="https://via.placeholder.com/500"
+          src="https://placehold.co/500x500"
           alt="App Preview"
           class="w-full rounded-xl shadow-lg"
         />
       </div>
+    </section>
+
+    <section>
+      <div class="flex flex-row gap-10 justify-center">
+      <img src="../public/images/Jar-Full-1.png" alt="Jar Full" width="50" height="50"/>
+      <img src="../public/images/Jar-Full-2.png" alt="Jar Full" width="50" height="50"/>
+      <img src="../public/images/Jar-Full-3.png" alt="Jar Full" width="50" height="50"/>
+      <img src="../public/images/Jar-Full-4.png" alt="Jar Full" width="50" height="50"/>
+      <img src="../public/images/Jar-Full-5.png" alt="Jar Full" width="50" height="50"/>
+      <img src="../public/images/Jar-Full-6.png" alt="Jar Full" width="50" height="50"/>
+      <img src="../public/images/Jar-Full-7.png" alt="Jar Full" width="50" height="50"/>
+      <img src="../public/images/Jar-Full-8.png" alt="Jar Full" width="50" height="50"/>
+      <img src="../public/images/Jar-Full-9.png" alt="Jar Full" width="50" height="50"/>
+    </div>
     </section>
 
     <!-- Information Section -->
@@ -69,7 +83,7 @@
         </div>
         <div class="md:w-1/2">
           <img
-            src="https://via.placeholder.com/500"
+            src="https://placehold.co/500x500"
             alt="Features"
             class="w-full rounded-xl shadow-lg"
           />
@@ -78,7 +92,7 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="bg-blue-100 py-16 px-8">
+    <section class="bg-blue-100 py-16 px-8" id="test">
       <div class="max-w-4xl mx-auto text-center slide-in">
         <h2 class="text-4xl font-bold text-blue-700">
           Frequently Asked Questions
@@ -107,6 +121,14 @@
         </div>
       </div>
     </section>
+    <script>
+      const t = [{name: "anton"}, {name: "anton"}];
+      const r = document.getElementById("test");
+      setTimeout(() => {
+        r.style = "background-color: red";
+      }, 2000)
+      console.dir(t)
+    </script>
 
     <!-- Footer Section -->
     <footer class="bg-gray-900 text-white py-8 text-center">
