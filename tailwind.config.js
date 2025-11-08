@@ -1,7 +1,11 @@
 module.exports = {
-  content: ["./src/*.{html,js}"],
+  content: ["./src/*.{html,js,svc}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        custom: ["SFProDisplay", "sans-serif"], // Add your font name
+      },
+    },
   },
   variants: {},
   plugins: [],

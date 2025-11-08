@@ -1,1 +1,21 @@
 @import "tailwindcss";
+@font-face {
+  font-family: "SFProDisplay";
+  src: url("../public/fonts/SFProDisplay-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Optional: Another style variation */
+@font-face {
+  font-family: "SFProDisplay";
+  src: url("../public/fonts/SFProDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SFProDisplay";
+  src: url("../public/fonts/SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

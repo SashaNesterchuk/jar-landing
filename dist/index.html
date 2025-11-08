@@ -3,9 +3,40 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/index.61d3354a.css" type="text/css" rel="stylesheet">
-    <title>App Landing Page</title>
-    <style>@keyframes slideIn {
+    <link href="/jar-landing.61d3354a.css" type="text/css" rel="stylesheet">
+    <link href="/jar-landing.93452b11.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/icon.a145be2f.png">
+    <title>Mindfulness Routine: Mind Jar</title>
+    <style>body {
+  color: #302d2c;
+  font-family: SFProDisplay, sans-serif;
+}
+
+.gray {
+  background-color: #f6f6f6;
+}
+
+.oval {
+  background-color: #479f87;
+  border-radius: 50%;
+  width: 80%;
+  height: 180%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.oval1 {
+  background-color: #fc8ca9;
+  border-radius: 50%;
+  width: 34%;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  left: -20%;
+}
+
+@keyframes slideIn {
   from {
     opacity: 0;
     transform: translateX(-100%);
@@ -22,106 +53,222 @@
 }
 </style>
   </head>
-  <body class="bg-gray-50 text-gray-900">
-    <!-- Hero Section -->
-    <section class="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto p-8 space-y-8 md:space-y-0">
-      <div class="md:w-1/2 text-center md:text-left slide-in">
-        <h1 class="text-5xl font-extrabold text-blue-700">
-          Discover Amazing App
-        </h1>
-        <p class="mt-4 text-lg text-gray-600">
-          Your ultimate tool to boost productivity and simplify life.
-        </p>
-        <div class="mt-6 flex justify-center md:justify-start space-x-4">
-          <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg transition">Download for Android</a>
-          <a href="#" class="bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-lg shadow-lg transition">Download for iOS</a>
+  <body class="">
+    <section class="flex flex-col md:flex-row items-jter gap-5 max-w-6xl mx-auto p-14 space-y-8 md:space-y-0">
+      <img src="/icon.a145be2f.png" alt="Logo" class="h-10">
+      <h1 class="text-3xl font-extrabold">Mind Jar</h1>
+    </section>
+    <section>
+      <div class="oval1"></div>
+      <section class="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto p-8 space-y-8 md:space-y-0">
+        <div class="md:w-1/2 text-center md:text-left slide-in">
+          <h1 class="text-5xl font-extrabold font-sf">Discover Amazing App</h1>
+          <p class="mt-4 text-lg text-gray-600">
+            Your ultimate tool to boost productivity and simplify life.
+          </p>
+          <div class="mt-6 flex justify-center md:justify-start space-x-4">
+            <a href="#">
+              <img src="/apple.42321d2b.svg" width="140%" height="140%" class="max-w-xl">
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <img src="/backgroundBlock.0be36f02.png" alt="App" class="w-full">
+        </div>
+      </section>
+    </section>
+
+    <section class="bg-white py-60 px-8">
+      <h1 class="text-6xl font-bold text-center pb-8">
+        Designed by experts,<br>
+        delivered with care
+      </h1>
+      <h4 class="text-2xl text-center pb-8">
+        From guided meditations to one-on-one coaching, our team of clinical<br>
+        experts and trained coaches work together to bring you science-backed
+        care.
+      </h4>
+    </section>
+
+    <section class="py-16 px-8 relative overflow-hidden">
+      <h1 class="text-9xl font-bold text-center pb-8 z-10 relative">
+        Explore our practise
+      </h1>
+      <div class="max-w-6xl mx-auto items-center space-y-8 md:space-y-0 md:space-x-12 grid grid-cols-2 gap-10">
+        <div class="oval"></div>
+        <div class="m-0 rounded-xl p-20 z-10 gray flex">
+          <div>
+            <div class="flex gap-4">
+              <img src="/pink.377973ac.png" alt="pink" class="w-10">
+              <h2 class="text-3xl font-bold">Wheels</h2>
+            </div>
+            <p class="mt-4 text-md text-gray-600">
+              Experience seamless integration, a user-friendly design, and
+              powerful features designed to make life easier.
+            </p>
+          </div>
+          <img src="/meditation.ae864981.png" alt="Meditation" class="w-40">
+        </div>
+        <div class="m-0 rounded-xl p-20 z-10 gray flex">
+          <div>
+            <div class="flex gap-4">
+              <img src="/blue.ff274530.png" alt="blue" class="w-10">
+              <h2 class="text-3xl font-bold">Wheels</h2>
+            </div>
+            <p class="mt-4 text-md text-gray-600">
+              Experience seamless integration, a user-friendly design, and
+              powerful features designed to make life easier.
+            </p>
+          </div>
+          <img src="/breathe.a228137b.png" alt="Breathe" class="w-40">
+        </div>
+        <div class="m-0 rounded-xl p-20 z-10 gray flex">
+          <div>
+            <div class="flex gap-4">
+              <img src="/orange.06084b20.png" alt="orange" class="w-10">
+              <h2 class="text-3xl font-bold">Wheels</h2>
+            </div>
+            <p class="mt-4 text-md text-gray-600">
+              Experience seamless integration, a user-friendly design, and
+              powerful features designed to make life easier.
+            </p>
+          </div>
+          <img src="/journal.c53b1bdd.png" alt="Journal" class="w-40">
+        </div>
+        <div class="m-0 rounded-xl p-20 z-10 gray flex">
+          <div>
+            <div class="flex gap-4">
+              <img src="/purple.7fdbf2ad.png" alt="purple" class="w-10">
+              <h2 class="text-3xl font-bold">Wheels</h2>
+            </div>
+            <p class="mt-4 text-md text-gray-600">
+              Experience seamless integration, a user-friendly design, and
+              powerful features designed to make life easier.
+            </p>
+          </div>
+          <img src="/affirmation.be152b7e.png" alt="affirmation" class="w-40">
         </div>
       </div>
-      <div class="md:w-1/2">
-        <img src="https://placehold.co/500x500" alt="App Preview" class="w-full rounded-xl shadow-lg">
-      </div>
     </section>
 
-    <section>
-      <div class="flex flex-row gap-10 justify-center">
-      <img src="/Jar-Full-1.e2c2c361.png" alt="Jar Full" width="50" height="50">
-      <img src="/Jar-Full-2.fe7d237c.png" alt="Jar Full" width="50" height="50">
-      <img src="/Jar-Full-3.1b40ea52.png" alt="Jar Full" width="50" height="50">
-      <img src="/Jar-Full-4.3fa8fff1.png" alt="Jar Full" width="50" height="50">
-      <img src="/Jar-Full-5.a3a6690e.png" alt="Jar Full" width="50" height="50">
-      <img src="/Jar-Full-6.1ec77a15.png" alt="Jar Full" width="50" height="50">
-      <img src="/Jar-Full-7.96ba4310.png" alt="Jar Full" width="50" height="50">
-      <img src="/Jar-Full-8.e3d3b986.png" alt="Jar Full" width="50" height="50">
-      <img src="/Jar-Full-9.a675598e.png" alt="Jar Full" width="50" height="50">
-    </div>
-    </section>
-
-    <!-- Information Section -->
-    <section class="bg-white py-16 px-8">
-      <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-12">
-        <div class="md:w-1/2 slide-in">
-          <h2 class="text-4xl font-bold text-blue-700">Why Choose Our App?</h2>
+    <section class="py-28">
+      <div class="oval1"></div>
+      <section class="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto space-y-8 md:space-y-0">
+        <div class="md:w-1/2 text-center md:text-left slide-in">
+          <h1 class="text-5xl font-extrabold">Daily activities</h1>
           <p class="mt-4 text-lg text-gray-600">
-            Experience seamless integration, a user-friendly design, and
-            powerful features designed to make life easier.
+            Your ultimate tool to boost productivity and simplify life.
           </p>
         </div>
         <div class="md:w-1/2">
-          <img src="https://placehold.co/500x500" alt="Features" class="w-full rounded-xl shadow-lg">
+          <img src="/daily%20group.278ff0bb.png" alt="App" class="w-full">
         </div>
-      </div>
+      </section>
+    </section>
+
+    <section style="background-color: #f4e797">
+      <section class="py-16 px-8 gap-10">
+        <div class="min-h-96 relative max-w-6xl mx-auto">
+          <h1 class="text-6xl font-bold pb-8 z-10 relative">
+            Designed by experts,<br>
+            delivered with care
+          </h1>
+          <img src="/jar-landing.b9b16922.png" alt="jar-landing" class="absolute h-96 right-0 top-0">
+        </div>
+      </section>
     </section>
 
     <!-- FAQ Section -->
-    <section class="bg-blue-100 py-16 px-8" id="test">
+    <section class="py-16 px-8">
       <div class="max-w-4xl mx-auto text-center slide-in">
-        <h2 class="text-4xl font-bold text-blue-700">
-          Frequently Asked Questions
-        </h2>
+        <h2 class="text-4xl font-bold">Frequently Asked Questions</h2>
         <div class="mt-8 space-y-6">
           <details class="p-4 bg-white rounded-lg shadow transition hover:shadow-lg">
-            <summary class="cursor-pointer font-semibold text-blue-700">
+            <summary class="cursor-pointer font-semibold text-left">
               How do I install the app?
             </summary>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-6 text-gray-600 text-left">
               You can download the app from the App Store or Google Play.
             </p>
           </details>
           <details class="p-4 bg-white rounded-lg shadow transition hover:shadow-lg">
-            <summary class="cursor-pointer font-semibold text-blue-700">
+            <summary class="cursor-pointer font-semibold text-left">
               Is the app free?
             </summary>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-6 text-gray-600 text-left">
+              Yes, the basic version is free with optional premium features.
+            </p>
+          </details>
+          <details class="p-4 bg-white rounded-lg shadow transition hover:shadow-lg">
+            <summary class="cursor-pointer font-semibold text-left">
+              Is the app free?
+            </summary>
+            <p class="mt-6 text-gray-600 text-left">
+              Yes, the basic version is free with optional premium features.
+            </p>
+          </details>
+          <details class="p-4 bg-white rounded-lg shadow transition hover:shadow-lg">
+            <summary class="cursor-pointer font-semibold text-left">
+              Is the app free?
+            </summary>
+            <p class="mt-6 text-gray-600 text-left">
+              Yes, the basic version is free with optional premium features.
+            </p>
+          </details>
+          <details class="p-4 bg-white rounded-lg shadow transition hover:shadow-lg">
+            <summary class="cursor-pointer font-semibold text-left">
+              Is the app free?
+            </summary>
+            <p class="mt-6 text-gray-600 text-left">
               Yes, the basic version is free with optional premium features.
             </p>
           </details>
         </div>
       </div>
     </section>
-    <script>const t = [
-    {
-        name: "anton"
-    },
-    {
-        name: "anton"
-    }
-];
-const r = document.getElementById("test");
-setTimeout(()=>{
-    r.style = "background-color: red";
-}, 2000);
-console.dir(t);
-
-</script>
 
     <!-- Footer Section -->
-    <footer class="bg-gray-900 text-white py-8 text-center">
-      <p class="text-lg">Follow us on social media</p>
-      <div class="mt-4 space-x-6">
-        <a href="#" class="hover:underline text-blue-400">Instagram</a>
-        <a href="#" class="hover:underline text-blue-400">Twitter</a>
-        <a href="#" class="hover:underline text-blue-400">Facebook</a>
-      </div>
+    <footer>
+      <section style="background-color: #f6f6f6" class="py-32">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h1 class="text-2xl font-bold">Join our Community</h1>
+            <div class="mt-4 flex gap-2 items-center">
+              <img src="/Instagram_Symbol_1.b92bede0.png" alt="Instagram" class="w-5 h-5">
+              <p>
+                <a class="text-gray-600">Instagram</a>
+              </p>
+            </div>
+          </div>
+          <div>
+            <h2 class="text-2xl font-bold">Contact Us</h2>
+            <p class="mt-4">
+              <a class="text-gray-600"> mind.jar.app@gmail.com </a>
+            </p>
+          </div>
+          <div>
+            <h2 class="text-2xl font-bold">Get the app</h2>
+            <div class="mt-4">
+              <a href="#">
+                <img src="/apple.42321d2b.svg" width="50%" height="50%">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section style="background-color: #2b2626" class="py-5 text-white">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <a class="mt-3">© 2025 Oleksandr Nesterchuk</a>
+          </div>
+          <div>
+            <a class="mt-3">Terms & Conditions</a>
+          </div>
+          <div>
+            <a class="mt-3">Privacy policy</a>
+          </div>
+        </div>
+      </section>
     </footer>
   <script src="/jar-landing.59712999.js"></script></body>
 </html>
